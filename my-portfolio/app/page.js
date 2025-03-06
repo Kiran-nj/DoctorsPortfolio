@@ -2,7 +2,7 @@ import Header from "@/src/components/Header";
 import Hero from "@/src/components/Hero";
 import MeetDoctor from "@/src/components/MeetDoctor";
 import Speciality from "@/src/components/Speciality";
-import TestimonialsSection from "@/src/components/TestimonialsSection";
+/* import TestimonialsSection from "@/src/components/TestimonialsSection"; */
 import Image from "next/image";
 
 
