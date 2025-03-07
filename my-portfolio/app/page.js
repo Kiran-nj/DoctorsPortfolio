@@ -1,3 +1,4 @@
+import ContactSection from "@/src/components/Contact";
 import Header from "@/src/components/Header";
 import Hero from "@/src/components/Hero";
 import MeetDoctor from "@/src/components/MeetDoctor";
@@ -20,6 +21,10 @@ export default function Home() {
 
        <MeetDoctor />
       {/*  <TestimonialsSection /> */}
+
+      <div className="flex flex-col items-center justify-center min-h- p-8">
+      <ContactSection />
+    </div>
       </main>
       {/* Footer */}
       <footer className="text-center py-4 bg-gray-100">
