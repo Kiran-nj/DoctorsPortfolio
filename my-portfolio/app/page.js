@@ -1,5 +1,6 @@
 import ContactSection from "@/src/components/Contact";
 import Header from "@/src/components/Header";
+import HeaderFooter from "@/src/components/HeaderFooter";
 import Hero from "@/src/components/Hero";
 import MeetDoctor from "@/src/components/MeetDoctor";
 import Speciality from "@/src/components/Speciality";
@@ -25,11 +26,10 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center min-h- p-8">
       <ContactSection />
     </div>
+
+    <HeaderFooter />
       </main>
-      {/* Footer */}
-      <footer className="text-center py-4 bg-gray-100">
-        <p>&copy; {new Date().getFullYear()} My Portfolio</p>
-      </footer>
+
     </div>
   );
 }

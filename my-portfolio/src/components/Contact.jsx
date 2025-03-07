@@ -35,7 +35,7 @@ const ContactSection = () => {
       </div>
       <button
         ref={buttonRef}
-        className="mt-6 md:mt-0 bg-[#FFC107] text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-[#E0A800] transition-all"
+        className="mt-6 md:mt-0 ml-3 bg-[#FFC107] text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-[#E0A800] transition-all"
       >
         Contact Now
       </button>
